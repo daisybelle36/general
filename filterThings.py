@@ -27,11 +27,11 @@ def return_missing(file1, items_file2):
 # --- MAIN --------------- #
 def main():
 	# create parser
-	parser = ArgumentParser(description = 'help text for script')
+	parser = ArgumentParser(description = 'Filter two files to find matches or mismatches in the first column.')
 	# add arguments to parser
-	parser.add_argument('file1', help='reference file, output will be in this file')
+	parser.add_argument('file1', help='reference file, output will be full lines from this file')
 	parser.add_argument('operator', help='use "and" or "not" to decide which lines will be output')
-	parser.add_argument('file2', help='comparison file, output will be, or will NOT be, in this file')
+	parser.add_argument('file2', help='comparison file, output will ALSO be, or will NOT be, in this file')
 	# collate/parse arguments
 	args = parser.parse_args()
  	
