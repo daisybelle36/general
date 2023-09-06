@@ -30,6 +30,7 @@ def main():
 	# read in lexicon
 	lexicon = args.lexicon
 	currentLexicon = []
+	word = args.word
  	
 	with open(lexicon, 'r') as inFile:
 		for line in inFile:
