@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This script checks that the formatting of the replacer script is okay.
+This script checks that the formatting of the replacer file for replace_words.py is okay.
 It also checks for duplicates:
 - Does col 1 contain duplicates, but col 2 is different? (ie A -> B, then A -> C)
 - Does col 2 appear in col 1 with a different col 2 (ie A -> B, then B -> C, or B -> A)
